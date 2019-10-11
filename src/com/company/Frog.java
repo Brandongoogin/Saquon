@@ -1,6 +1,6 @@
 package com.company;
 
-public class Frog {
+public class Frog { 
     private String name;
     private int xPos;
     private int yPos;
@@ -48,7 +48,8 @@ public class Frog {
     // the frog will move both up and right.  Returns no value.
 
     public void visit(Frog friend) {
-        
+
+
 
     // This method will take an argument of type Frog.  It will find the position of the
     // frog and move to this position.
@@ -74,7 +75,7 @@ public class Frog {
         Frog f2 = new Frog("Francine", -2,0);
         f2.eatFly();
         // TODO uncomment these to test new code.
-        //f2.jump(2);
+        f2.jump(2);
         //f1.visit(f2);
         System.out.println(f1);
         System.out.println(f2);
